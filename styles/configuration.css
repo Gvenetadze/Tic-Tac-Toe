@@ -1,0 +1,53 @@
+#config-overlay h2 {
+    margin: 0.5rem 0;
+}
+
+.form-control{
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    font: inherit;
+    border: 1px solid rgb(204, 204, 204);
+    width: 15rem;
+}
+
+.error label {
+  color: rgb(136, 2, 2);
+}
+
+.error input {
+  border-color: rgb(136, 2, 2);
+  color: rgb(136, 2, 2);
+  background-color: rgb(253, 219, 219);
+}
+
+#player-info {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 45rem;
+    margin: 4rem auto 1.5rem auto;
+    text-align: center;
+    padding: 0;
+  }
+  
+  #player-info li {
+    width: 50%;
+    background-color: rgb(237, 237, 237);
+    display: block;
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+  }
+  
+  #player-info h2 {
+    color: rgb(117, 25, 134);
+  }
